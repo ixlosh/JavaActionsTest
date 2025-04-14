@@ -23,5 +23,5 @@ jobs:
         with:
           image: ixlosh/ixloshImage:latest
           registry: docker.io
-          username: ${{ secrets.DOCKER_USERNAME }}
-          password: ${{ secrets.DOCKER_PASSWORD }}
+          username: ${{ DOCKER_USERNAME }}
+          password: ${{ DOCKER_PASSWORD }}
